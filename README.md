@@ -58,16 +58,7 @@ Geometry Type	Final Distribution	Entropy Curve
 Spiral	
 Arc	
 Dual-Core	
-🧪 Experimental Inspiration
-This framework could inspire physical experiments using thermal waveguides:
 
-Etch spiral or arc shapes onto thin conductive films (e.g., copper or graphite)
-
-Inject energy via laser or IR pulse
-
-Record thermal diffusion using IR camera
-
-Compare patterned vs flat substrate for energy shaping behavior
 
 📜 License
 This project is licensed under the MIT License — feel free to build, remix, or contribute.
