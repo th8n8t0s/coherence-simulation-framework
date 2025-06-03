@@ -1,6 +1,6 @@
 # 🌐 Coherence Simulation Framework
 
-This project explores how static geometric fields—such as spirals, arcs, and dual-core shapes—can influence entropy and curvature in scalar signal propagation. The framework simulates energy-like signals diffusing through these geometries and tracks how coherence, structure, and information density evolve over time.
+This project explores how static geometric fields—such as spirals, arcs, and dual-core shapes—affect entropy and curvature during scalar signal propagation. The framework simulates energy-like signals diffusing through these geometries and tracks how coherence, structure, and information density evolve over time.
 
 ---
 
@@ -17,11 +17,17 @@ This project explores how static geometric fields—such as spirals, arcs, and d
 
 ## 📂 Project Structure
 
-├── coherence_simulation/ │ ├── geometry_fields.py # Spiral, Arc, Dual-Core masks │ ├── simulation_runner.py # Main evolution logic │ ├── metrics.py # Entropy and curvature functions │ └── visualization.py # Plotting and animation tools ├── outputs/ │ └── figures, animations ├── r_go2.ipynb # Main notebook with documentation └── README.md
-
-yaml
-Copy
-Edit
+```
+coherence_simulation/
+├── geometry_fields.py   # Spiral, Arc, Dual-Core masks
+├── simulation_runner.py # Main evolution logic
+├── metrics.py           # Entropy and curvature functions
+└── visualization.py     # Plotting helpers
+outputs/
+└── figures, animations
+r_go2.py                 # Example script
+README.md
+```
 
 ---
 
@@ -32,7 +38,7 @@ The central idea is to test whether *geometry alone*—without dynamic feedback�
 - **Entropy**: Information dispersion across the signal field
 - **Curvature**: Structural sharpness of spatial gradients
 
-These quantities help describe how “focused” or “diffuse” energy becomes within a given field shape.
+These quantities help describe how "focused" or "diffuse" energy becomes within a given field shape.
 
 ---
 
@@ -40,28 +46,24 @@ These quantities help describe how “focused” or “diffuse” energy becomes
 
 1. Install required packages:
    ```bash
-   pip install numpy matplotlib
-Run the notebook:
+   pip install -r requirements.txt
+   ```
+2. Run the example script:
+   ```bash
+   python r_go2.py
+   ```
 
-bash
-Copy
-Edit
-jupyter notebook r_go2.ipynb
-Or, run the Python script directly once modularized:
+Unit tests can be executed with:
+```bash
+pytest
+```
 
-bash
-Copy
-Edit
-python simulation_runner.py
-📈 Example Outputs
-Geometry Type	Final Distribution	Entropy Curve
-Spiral	
-Arc	
-Dual-Core	
+---
 
+📜 **License**
 
-📜 License
 This project is licensed under the MIT License — feel free to build, remix, or contribute.
 
-🤝 Acknowledgments
+🤝 **Acknowledgments**
+
 This project was developed as a personal exploration of wave-based geometry and information flow. Special thanks to the open-source community and theoretical physics inspiration.
